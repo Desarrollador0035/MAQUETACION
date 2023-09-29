@@ -1,0 +1,129 @@
+<!DOCTYPE hmtml>
+<html lang ="utf-8">
+<header>
+<style>
+
+*{
+box-sizing: border-box;
+}
+
+body{
+/*margin : 0;*/
+}
+
+.header{
+background-color:#f1f1f1;
+padding : 20px;
+text-aling:center;
+}
+
+/*Style the top navigation bar*/
+.topnav a:hover{
+owerflor: hidden;
+background-color: #333;
+}
+
+/*Style the topnav links*/
+.topnav a{
+float: left;
+display:block;
+color:blue;
+text-aling:center;
+padding: 14px 16px;
+text-decoration : none;
+}
+
+/*Change color on hover*/
+.topnav a:hover{
+background:color: #ddd;
+color:black;
+}
+/*Create three equal columns that next to each other*/
+.column{
+float : left;
+width: 25%;
+padding: 15px;
+}
+/*Clear floats after the columns*/
+.row::after{
+content:"";
+display: table;
+clear ; both;
+}
+
+
+/* regla @media: 
+	para diferentes tipos de medios, se utilizan para comprobar: ancho,alto,resolucion, orientacion,resolucion de una venta, 
+dispositvo(latop,moviles,escritorio)*/
+
+@media screen and (max-width:600px) {
+.body{ /*cuando la ventana del navegador tenga 600px de ancho o menos cambia el color de fondo*/
+background-color:lightblue;
+}
+
+.column{
+width: 100%
+}
+
+}
+
+
+</style>
+<title>MAQUETACION</title>
+</header>
+<body>
+
+<div class = "header">
+<h1>ENCABEZADO</h1>
+</div>
+
+<div class="topnav">
+<a href ="#">INICIO</a>
+<a href ="#">INICIO</a>
+<a href ="#">INICIO</a>
+<a href ="#">INICIO</a>
+<a href ="#">INICIO</a>
+<a href ="#">INICIO</a>
+</div>
+
+<div class = "row">
+<div class = "column">
+<h2>Column</h2>
+<p>
+TEXTO
+TEXT
+TEXTO
+TEXTO
+</p>
+</div>
+</div>
+
+
+
+<div class = "row">
+<div class = "column">
+<h2>Column02</h2>
+<p>
+TEXT
+TEXTO
+TEXTO
+</p>
+</div>
+</div>
+
+
+<div class = "row">
+<div class = "column">
+<h2>Column03</h2>
+<p>
+TEXT
+TEXTO
+TEXTO
+</p>
+</div>
+</div>
+
+
+
+</body>
+</html> 
