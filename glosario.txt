@@ -1,0 +1,3 @@
+Selector: nombre que tiene un determinado elemento dentro del codigo.
+Identificador: ID , nombre de un elemento concreto que se repite mas que una vez en toda la web. Se definen con #.
+Clase: nombre de una regla que se repite en varios sitios de la web, las clases se definen con el punto . .
