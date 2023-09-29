@@ -1,0 +1,177 @@
+<!DOCTYPE hmtml>
+<html lang ="utf-8">
+<header>
+<style>
+*{
+box-sizing : border-box;
+}
+
+body{
+font-family : Arial;
+padding:10px;
+background : #f1f1f1;
+}
+
+/*Header Blog title*/
+.header{
+background:yellow;
+text-align:center;
+padding:center;
+}
+
+.header.h1{
+font-size:50px;
+}
+
+/*Style the top navigation bar*/
+.topnav{
+	overflow: hidden;
+	background-color: gray;
+}
+
+/*Style the topnav links*/
+.topnav a{
+float: rigth;
+display:block;
+color:#f2f2f2;
+text-align:center;
+text-decoration: none;/*Elmina las lineas del elemento a*/
+}
+
+/*Change color or hover*/
+/*Haga coincidir el elemento <a> en el clase .topnav */
+.topnav a:hover{/* pseudoclase -> selector :pseudoclass{property:value;}*//*De la clase topnav se combina con el elemento a, la pseudoclase hover:pasar el mouse y cambiar de color*/
+backgroung-color: #ddd;
+color:black;
+}
+
+
+/*Left column*/
+.leftcolumn{
+float: left;
+width:75%
+}
+
+/*Rigth column*/
+.rigthcolumn{
+float:left;
+width:25%;
+background-color:#f1f1f1;
+padding-left:20px; /*padding: cantidad de espacio entre el borde y el contenido del elemento, quiere decir, crear espacio alrededor del contenido*/
+}
+
+/*Fake image*/
+.fakeimg {
+background-color:#aaa;
+width:100%
+padding:20px;
+}
+
+/*Add a card effect for articles*/
+.card{
+background-color: white;
+padding : 20px;
+margin-top: 20px;
+}
+
+/*Clear floats after the columns*/
+row::after{/*Insertar algo de texto despues del contenido de cada elemento con la clase row selector::pseudo-element{property:value;}*/
+content:"";
+display: table;
+clear: both;
+}
+
+/*Footer*/
+.footer{
+text-align: center;
+background:#ddd;
+padding : 20px;
+maring-top: 20px; 
+}
+
+@media screen and(max-width:800px){
+.leftcolumn,rightcolumn{
+width: 100%;
+padding:0;}}
+
+@media screen and (max-width:400px){
+.top a{float none;width:100%;}}
+</style>
+<title>MAQUETACION</title>
+</header>
+
+
+
+<!-- DIVISION DE LOS ELEMENTOS-->
+
+
+
+<body>
+
+<div class = "header">
+<h1>PORTAFOLIO</h1>
+<p>Agregar un parrafo a la descripcion del portafolio</p>
+</div>
+
+<div class ="row">
+
+<div class ="leftcolumn">
+<div class ="card">
+<h2>TITULO01</h2>
+<h5> Una breve descripcion 29 de septiembre de 2023</h5>
+<div class = "fakeimg" style="height :200px">SE PUEDE AGREGAR UNA IMAGEN</div>
+<p>Agregan algun parrafo</p>
+<p>Anotar alguna descripcion del parrafo</p>
+</div>
+</div>
+
+<div class = "card">
+<h2>TITULO02</h2>
+<h5>Agregar alguna otra descripcion del tiutlo02</h5>
+<div class ="fakeimg" style="height:200px;"> SE PUEDE AGREGAR OTRA IMAGEN</div>
+<p> Agregar algun parrafo</p>
+<p> Descripcion de algun parrafo</p>
+</div>
+
+<div class ="rigthcolumn">
+<div class ="card">
+<h2>COLUMNA DERECHA</h2>
+<div class = "fakeimg" style="height:100px;"> AGREGAR IMAGEN</div>
+<p>Agregar algun parrafo</p>
+</div>
+</div>
+
+<div class ="card">
+<h3>Popular Post</h3>
+<div class="fakeimg"><p>IMAGEN</p></div>
+<div class="fakeimg"><p>IMAGEN</p></div>
+<div class="fakeimg"><p>IMAGEN</p></div>
+</div>
+
+<div class ="card">
+<h3> Follow Me</h3>
+<p>Some Text</p>
+</div>
+
+
+</div>
+
+<div class ="footer">
+<h2>Footer</h2>
+</div>
+
+<div class = "topnav">
+<a href="#">INICIO</a>
+<a href="#">INICIO</a>
+<a href="#">INICIO</a>
+<a href="#">INICIO</a>
+<a href="#">INICIO</a>
+<a href="#">INICIO</a>
+</div>
+
+
+
+
+
+</body>
+</html> 
