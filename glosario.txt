@@ -1,3 +1,17 @@
 Selector: nombre que tiene un determinado elemento dentro del codigo.
 Identificador: ID , nombre de un elemento concreto que se repite mas que una vez en toda la web. Se definen con #.
 Clase: nombre de una regla que se repite en varios sitios de la web, las clases se definen con el punto . .
+
+TEXTOS
+text-decoration: aplica efectos se subrayado,tachado,parpadeo.
+text-transform : transformar los texto a mayusculas o minuscula.
+
+ELEMENTOS GRAFICOS DE LA WEB
+border: border de un elemento o imagen. Tiene 3 parametros borde,grosor y color.
+display : modo en que se muestra un elemento o imagen o no mostralo nunca.
+
+AÑADIR ESPACIOS O MARGENES
+margin: margen a partir de un elemento hacia afuera expresado en px. Suele empujar elementos mas cercanos.
+padding : relleno o espacio interior desde el borde de un elemento hacia adentro. Aumentar el padding suele arrastrar hacia fuera los bordes y consiguiente aumenta el tamaño del elemento.
+
+
