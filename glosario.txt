@@ -14,4 +14,13 @@ AÑADIR ESPACIOS O MARGENES
 margin: margen a partir de un elemento hacia afuera expresado en px. Suele empujar elementos mas cercanos.
 padding : relleno o espacio interior desde el borde de un elemento hacia adentro. Aumentar el padding suele arrastrar hacia fuera los bordes y consiguiente aumenta el tamaño del elemento.
 
+ANIMACIONES POR SCROLL -> Scroll TImelines y VIew TImeLines.
+SPRITE: Todas las animaciones predefinidas de un elemento, para hacer un scroll en css, gifer .com
+scroll -> css contenedor de tamaño
+PROPIEDAD HTML: contenteditable : para editar texto.
 
+REVISADO DE PAGINAS Y MEJORAS
+<div id ="root" style max-width:900px;margin:0auto;
+display:block</div>
+
+<span> en vez de <p>; el texto puede ir en un span.
