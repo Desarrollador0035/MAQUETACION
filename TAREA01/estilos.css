@@ -1,0 +1,95 @@
+/*Seleccionar todos los elementos*/
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: arial;
+    box-sizing: border-box;
+
+    
+}
+
+.contenedor{
+margin : 0 auto;
+width : 1200px;
+height: 820px;
+border: 15px solid #35d27e;
+position: relative;
+   
+    
+}
+
+/*selecciona un div con las clase encabezado*/
+.encabezado{
+    /*height: 100px;*/
+    color: white;
+    text-align: justify;
+    width: auto;
+    border-style: solid;
+    margin-bottom: 45px;
+    padding: 50px;
+    border: 1px solid black;
+    background-image:linear-gradient(green, black)  
+}
+
+/*Seleccionar un elemento div con la clase menu*/
+.menu{
+    
+   
+   /* border : 2px solid black;*/
+    text-align: center;
+    margin-bottom: 50px;
+    height: 100px;
+    width: auto;
+   
+
+    
+  
+}
+
+.items a{
+    position: center;
+    color: white;
+    background-color: green ;
+    float: left;
+    display: table;
+    text-decoration: none;
+    padding : 25px;
+    cursor: pointer;
+    margin: 40px;  
+    width: 150px ;
+    text-align: center;
+    border-radius: 25px;
+    
+}
+
+
+div.login{
+    float: right;
+    padding-bottom: 25px;
+   
+    margin : auto;
+    width:300px;
+    
+
+}
+div.contenido{
+
+    width: 800px;
+    margin: 150px 0px 0px 0px;
+}
+
+table td,th{
+    border: 2px solid #845464;
+}
+
+div.pie_pagina{
+    text-align: left;
+    background-color: black;
+    color: white;
+    border: 1p solid white;
+    margin: 27px 0px 0px 0px;
+    
+}
+
+
